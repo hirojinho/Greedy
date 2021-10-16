@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4136844178125394}
+  - component: {fileID: 7525223684884363109}
+  - component: {fileID: 8465898637983162923}
   m_Layer: 0
   m_Name: HexTile_Gold
   m_TagString: Untagged
@@ -32,6 +34,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7525223684884363109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500024321721894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeb42f687404bb41b025797ad06e162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasteland: {fileID: 1114219214756384, guid: 2fb98c264fc22154ca2c06b5921a1717, type: 3}
+  sphere:
+  - {fileID: 8830887308441222192, guid: 8e296b6abaa418d4fb407b3174cf7a43, type: 3}
+  - {fileID: 7502225675925387404, guid: fa35df6a82278c4469159fa7951d100c, type: 3}
+--- !u!65 &8465898637983162923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500024321721894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.24667476, z: 1}
+  m_Center: {x: 0, y: 0.13109146, z: 0}
 --- !u!1 &1630363132612422
 GameObject:
   m_ObjectHideFlags: 0

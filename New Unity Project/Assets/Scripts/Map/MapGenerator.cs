@@ -7,6 +7,8 @@ public class MapGenerator : MonoBehaviour
 
     public GameObject[] hexTileMap;
 
+    GameObject player;
+
     public int mapWidth = 25, mapHeight = 25;
 
     float tileXOffset = 3.75f, tileZOffset = 4.4f;
@@ -15,9 +17,9 @@ public class MapGenerator : MonoBehaviour
     void Start()
     {
         createHexTileMap();
+        player = GameObject.FindWithTag("Player");
     }
 
-    // Update is called once per frame
     void createHexTileMap()
     {
         for(int x = 0; x <= mapWidth; x += 1)
@@ -27,6 +29,7 @@ public class MapGenerator : MonoBehaviour
                 int r = Random.Range(0, 11);
 
                 GameObject temp00 = Instantiate(hexTileMap[r]);
+                temp00.transform.SetParent(this.transform);
 
                 if(x % 2 == 0)
                 {
