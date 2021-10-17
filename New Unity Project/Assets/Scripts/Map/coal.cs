@@ -47,6 +47,7 @@ public class coal : MonoBehaviour
 
         if(isplayer == true)
         {
+
             for(int i = 0; i < 10; i++)
             {
                 player.GetComponent<resources>().coal += 5.0f;
