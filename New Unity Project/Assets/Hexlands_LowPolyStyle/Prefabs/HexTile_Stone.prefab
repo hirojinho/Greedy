@@ -265,8 +265,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wasteland: {fileID: 1114219214756384, guid: 2fb98c264fc22154ca2c06b5921a1717, type: 3}
   sphere:
-  - {fileID: 7502225675925387404, guid: fa35df6a82278c4469159fa7951d100c, type: 3}
   - {fileID: 8830887308441222192, guid: 8e296b6abaa418d4fb407b3174cf7a43, type: 3}
+  - {fileID: 7502225675925387404, guid: fa35df6a82278c4469159fa7951d100c, type: 3}
 --- !u!65 &-6086882188620219875
 BoxCollider:
   m_ObjectHideFlags: 0
